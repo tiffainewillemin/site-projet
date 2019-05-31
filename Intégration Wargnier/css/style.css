@@ -1,0 +1,579 @@
+
+/* CSS Document */
+
+/* Corps du site*/
+body
+{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: #A2C9F2!important;
+
+	
+}
+
+h6
+{
+	font-size: 15px;
+	font-family: 'Josefin Sans', sans-serif;
+	
+}
+
+h4
+{
+	font-size: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h3
+{
+	font-size: 7vw;
+    line-height: 100px;
+    color: black;
+    text-align: center;
+	text-shadow: 0 0 0.2em #ffffff, 0 0 0.2em #ffffff,
+        0 0 0.2em #ffffff;
+}
+
+h2
+{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 35px;
+}
+
+.img
+{
+	width: 300px;
+}
+.typo
+{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 35px;
+}
+
+.video
+{
+	width: 560px;
+	height: 315px;
+	margin-left: 30%;
+}
+
+
+
+/*Police de caractère*/
+.font
+{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+}
+
+.bandeau
+{
+	width: 100%;
+}
+
+/*Texte complémentaire des articles*/
+
+.info
+{
+	font-size: 16px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+/*Texte de 150mots*/
+
+.spitch
+{
+	font-size: 12px;
+}
+
+/*image navbar*/
+.top
+{
+	background-image: url(../medias/fond2.jpg);
+	background-size: contain;
+	height: 45vw;
+	width: 100%; 
+	background-repeat: no-repeat;
+	margin: 0;
+}
+
+
+/*barre de navigation*/
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+.sticky + .content {
+    padding-top: 60px;
+}
+
+/*navbar*/
+
+nav
+{
+	width: 100%;
+	z-index: 2;
+	background: black;
+	top: 0;
+	font-size: 15px;
+	
+}
+
+.navbar
+{
+	margin-bottom: 0;
+}
+
+.navbar-nav li a 
+{
+    color: black;
+    
+	float: right;
+}
+
+nav ul 
+{
+	float: right;
+	
+}
+nav ul li
+{
+	display: inline-block;
+	padding: 0px 0px;
+	
+}
+nav ul li a
+{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	transition: .3s;
+	font-family: 'Josefin Sans', sans-serif;
+	float: right;
+}
+
+.active
+{
+	font-weight: bold;
+}
+
+.navbar-default 
+{
+    background-color: white;
+	
+}
+
+.content
+{
+	padding: 30px 0 100px 0;
+}
+
+/*Contenu en bas de la page index*/
+.content2 
+{
+	padding: 50px 0 50px 0;
+}
+/*logo à gauche*/
+
+.logo
+{
+	height: 40px;
+	margin-left: 0;
+}
+
+
+nav.black
+{
+	background: #000;
+}
+
+/*police caroussel*/
+
+.carousel-caption
+{
+	color: white;
+}
+
+.desc 
+{
+    font-size: 30px;
+    line-height: 60px;
+    color: #fff7f7;
+    text-align: center;
+}
+
+/*Titre sur les diaporamas*/
+
+.titre
+{
+	font-size: 5vw;
+	color: black;
+	text-shadow: 0 0 0.2em #ffffff, 0 0 0.2em #ffffff, 0 0 0.2em #ffffff;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top: 0;
+}
+
+
+
+
+
+/*Articles*/
+
+.card
+{
+	float: left;
+	width: 30%;
+	padding: 20px 2%;
+	background-color: #FFFFFF;
+	border: 3px solid;
+	border-color: #000000;
+	font-family:'Josefin Sans', sans-serif;
+	text-align: center;
+	margin: 1.5% 1.5%;
+	border-radius: 4px;
+		
+}
+
+/*Titre des articles*/
+
+.card-title
+{
+	font-size: 22px;
+	color: black;
+}
+
+/*Description des cards*/
+
+.card-text
+{
+	font-size: 18px;
+}
+
+/*Article principal*/
+
+.card2
+{
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	background-color: #FFFFFF;
+	border: solid;
+	border-color: #000000;
+	font-family:'Josefin Sans', sans-serif;
+	text-align: center;
+}
+
+/*Texte article principal*/
+
+.card-text2
+{
+	font-size: 2vw;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.footer
+{
+	background-color: red;
+	height: 200px;
+	float: left;
+}
+
+.texte
+{
+	text-align: center;
+}
+
+
+.footer
+{
+	float: left;
+	width: 100%;
+	height: 70%;
+	background-color: black;
+}
+
+.spitch
+{
+	font-size: 14px;
+}
+
+.icon{
+	margin-top: 3%;
+}
+
+/*Icons réseaux sociaux*/
+
+.reseau
+{
+	float: right;
+	
+}
+
+.fab
+{
+padding: 5.5px 20px;
+
+}
+
+.pagination a
+{
+	border-radius: 5px;
+	
+}
+
+.pagination a.active {
+  border-radius: 5px;
+}
+
+/*Formulaire inscription et connexion et contact*/
+.couleur
+{
+	border-radius: 10px;
+	background-image: radial-gradient(circle at center, white, whitesmoke);
+	padding: 10px;
+}
+
+.couleurcontact
+{
+	border-radius: 10px;
+	background-image: radial-gradient(circle at center, white, whitesmoke);
+	padding: 10px;
+}
+
+/*formulaire contact*/
+
+.formulaire2
+{
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 10%;
+    background-image: radial-gradient(circle at center, white, whitesmoke);
+	border-radius: 10px;
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+}
+
+
+
+.fond
+{
+
+	background-color: #A2C9F2;
+}
+
+/*Page Panier*/
+
+.paiement
+{
+	background-color: green;
+	width: 19%;
+	border-radius: 5px;
+	text-align: center;
+	margin-left: 40%;
+}
+
+.bouton2
+{
+	text-align: center;
+}
+.total
+{
+	text-align: center;
+}
+
+.carte
+{
+	height: 55px;
+}
+
+.produit
+{
+	background-color: white;
+	width: 100%;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24px;
+	text-align: center;
+	border-radius: 5px;
+	margin: 0 auto;
+	float: left;
+}
+
+.payer
+{
+	color: black;
+}
+
+.evenement
+{
+	font-size: 40px;
+}
+
+/*Page Contact*/
+
+.envoyer
+{
+	margin-left: 45%;
+	float: left;
+}
+
+.presentation
+{
+	background-color: #A2C9F2;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	font-family: 'Josefin Sans', sans-serif;
+	
+}
+
+.personnage
+{
+	width: 20%;
+	margin-left: 40%;
+	
+}
+
+.lieu
+{
+	background-color: #A2C9F2;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.universite
+{
+	width: 100%;
+}
+
+/*Balise hr*/
+
+.espace
+{
+	width: 50%;
+	border-top: 3px solid black;
+}
+
+.espace2
+{
+	width: 80%;
+	border-top: 3px solid black;
+}
+
+.etude
+{
+	font-size: 20px;
+	text-align: center;
+}
+.carte
+{
+	margin: 1%;
+}
+
+/*Loader Page Index*/
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #A2C9F2; /* Blue */
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  animation: spin 2s linear infinite;
+  float: left;
+  margin-left: 45%;
+	
+	
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes loader {
+  0% {
+    background-color: red;
+    width:0%;
+  }
+  50% {
+    background-color: yellow;
+    width:50%;
+  }
+  100% {
+    background-color: green;
+    width:100%;
+    
+  }
+}
+
+
+@keyframes loader {
+  0% {
+    top: 6px;
+    height: 51px;
+  }
+  50%, 100% {
+    top: 19px;
+    height: 26px;
+  }
+}
+
+
+
+@media screen and (min-width:500px) and (max-width:769px) and (orientation:landscape)
+{
+	.col-4{width: 94%;color: pink;}
+}
+@media screen and (max-width:768px)
+{
+	
+
+nav ul li {
+    
+	font-size: 12px;
+}
+}
+@media screen and (min-width:768px) and (max-width:991px)
+{
+	.logo
+	{
+		max-width: 100px;
+		height: auto;
+	}
+	nav ul li a
+	{
+		padding: 10px !important;
+	}
+}
+@media screen and (max-width:990px) 
+{
+	.info p{
+		text-align: center;
+
+	}
+	.reseau
+	{
+		float: none;
+  		width:100%;
+  		overflow:hidden;
+ 		display:flex;
+  		flex-direction:column;
+  		justify-content:center; /* Alignement sur la hauteur/verticalement */
+  		align-items:center; /* Alignement sur la largeur/horizontalement */
+	}
+}
+
+.largeur-totale{
+	width:100%;
+}
+
+
